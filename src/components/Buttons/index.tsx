@@ -1,17 +1,14 @@
-import React from "react";
+import { ButtonHTMLAttributes } from "react";
 import "./buttons.scss"
 
-interface ButtonProps {
-    onClick: () => void;
-    alt?: boolean;
-    children: React.ReactNode;
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+    alternative?: boolean;
 }
 
-const BaseButton= ({onClick, alt = false, children }: ButtonProps) => {
+const BaseButton = ({alternative = false, children }: ButtonProps) => {
     return(
         <button 
-            className={`base-button base-button${alt && "--alternative"}`} 
-            onClick={onClick}>
+            className={`base-button base-button${alternative && "--alternative"}`}>
                 {children}
         </button>
     )

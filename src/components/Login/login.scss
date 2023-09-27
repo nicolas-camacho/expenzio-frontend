@@ -1,5 +1,17 @@
 .login {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    place-items: center;
     gap: 50px;
+    background-color: #EAF0F4;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    align-items: center;
+    border-radius: 50px 50px 0px 0px;
+
+    input, button {
+        width: 70%;
+    }
 }
