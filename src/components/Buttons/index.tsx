@@ -7,7 +7,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const BaseButton = ({alternative = false, children }: ButtonProps) => {
     return(
-        <button 
+        <button
             className={`base-button base-button${alternative && "--alternative"}`}>
                 {children}
         </button>
