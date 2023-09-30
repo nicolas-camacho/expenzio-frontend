@@ -1,6 +1,8 @@
+@import "../../colors";
+
 .base-button {
     padding: 10px 20px;
-    background-color: #68ef71;
+    background-color: $green-main;
     color: #FFFFFF;
     border-radius: 40px;
     border: none;
@@ -11,6 +13,6 @@
 
     &--alternative {
         background-color: #FFFFFF;
-        color: #68ef71;
+        color: $green-main;
     }
 }

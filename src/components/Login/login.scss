@@ -1,8 +1,10 @@
+@import "../../colors";
+
 .login {
     display: grid;
     place-items: center;
     gap: 50px;
-    background-color: #EAF0F4;
+    background-color: $light-color;
     width: 100%;
     position: absolute;
     bottom: 0;
