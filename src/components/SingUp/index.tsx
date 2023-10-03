@@ -1,16 +1,17 @@
 import { BaseButton } from "../Buttons"
 import { BaseInput } from "../Inputs"
 
-import "./login.scss"
+import "./signup.scss"
 
-const Login = () => {
+const SignUp = () => {
     return (
         <div className="authorization">
             <BaseInput placeholder="User" type="text" />
             <BaseInput type="password" name="password" placeholder="password" />
-            <BaseButton onClick={() => null}>Log In</BaseButton>
+            <BaseInput type="password" name="repeat password" placeholder="repeat password" />
+            <BaseButton onClick={() => null}>Sign Up</BaseButton>
         </div>
     )
 }
 
-export default Login
+export default SignUp
