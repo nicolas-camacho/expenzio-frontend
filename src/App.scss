@@ -18,7 +18,7 @@ main {
 }
 
 
-.authorization {
+.authetication-container {
   display: grid;
   place-items: center;
   gap: 50px;
@@ -30,4 +30,8 @@ main {
   padding-top: 50px;
   align-items: center;
   border-radius: 50px 50px 0px 0px;
+
+  input, button {
+    width: 70%;
+  }
 }

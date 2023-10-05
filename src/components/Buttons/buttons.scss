@@ -16,3 +16,17 @@
         color: $green-main;
     }
 }
+
+.link-button {
+    text-decoration: underline;
+    background: none;
+    color: inherit;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    cursor: pointer;
+
+    &--alternative {
+        color: $green-main;
+    }
+}
