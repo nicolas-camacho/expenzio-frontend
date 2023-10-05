@@ -3,7 +3,7 @@ import Login from './components/Login'
 import SignUp from './components/SingUp';
 import { PageContext } from './contexts/PageContext';
 
-import './App.scss'; 
+import './App.scss';
 
 
 function App() {

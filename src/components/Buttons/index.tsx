@@ -14,7 +14,7 @@ const BaseButton = ({alternative = false, children, ...props }: ButtonProps) => 
         </button>
     )
 }
- 
+
 
 const LinkButton = ({alternative = false, children, ...props }: ButtonProps) => {
     return (
