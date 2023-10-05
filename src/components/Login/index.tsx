@@ -6,7 +6,7 @@ import { PageContext } from "../../contexts/PageContext"
 import "./login.scss"
 
 const Login = () => {
-    const {switchPages} = useContext(PageContext) 
+    const {switchPages} = useContext(PageContext)
 
     return (
         <div className="authetication-container">
